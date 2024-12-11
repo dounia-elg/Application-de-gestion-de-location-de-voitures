@@ -23,7 +23,7 @@
 
                 <thead class="bg-gray-200 text-gray-700">
                     <tr>
-                        <th class="px-4 py-2 border">ID</th>
+                        <th class="px-4 py-2 border">ID Client</th>
                         <th class="px-4 py-2 border">Name</th>
                         <th class="px-4 py-2 border">Address</th>
                         <th class="px-4 py-2 border">Phone</th>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clients</title>
+    <title>Cars</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100">
@@ -23,7 +23,7 @@
 
                 <thead class="bg-gray-200 text-gray-700">
                     <tr>
-                        <th class="px-4 py-2 border">ID</th>
+                        <th class="px-4 py-2 border">ID Car</th>
                         <th class="px-4 py-2 border">Marque</th>
                         <th class="px-4 py-2 border">Modele</th>
                         <th class="px-4 py-2 border">Year</th>
