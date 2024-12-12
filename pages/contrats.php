@@ -67,8 +67,8 @@
                             <td class='px-4 py-2 border'>$row[idclient]</td>
                             <td class='px-4 py-2 border'>$row[idvoiture]</td>
                             <td class='px-4 py-2 border text-center'>
-                                <a class='bg-green-500 text-white px-3 py-1 rounded text-sm hover:bg-green-600' href='/projet de gestion location/edit-client.php?idclient=$row[idclient]'>Edit</a>
-                                <a class='bg-red-500 text-white px-3 py-1 rounded text-sm hover:bg-red-600' href='/projet de gestion location/delete-client.php?idclient=$row[idclient]'>Delete</a>
+                                <a class='bg-green-500 text-white px-3 py-1 rounded text-sm hover:bg-green-600' href='edit-client.php?idclient=$row[idclient]'>Edit</a>
+                                <a class='bg-red-500 text-white px-3 py-1 rounded text-sm hover:bg-red-600' href='delete-client.php?idclient=$row[idclient]'>Delete</a>
                             </td>
                         </tr>
                         ";

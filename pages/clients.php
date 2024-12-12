@@ -13,7 +13,7 @@
         <!---------- Header Section ---------->
         <div class="flex justify-between items-center mb-6">
             <h2 class="text-2xl font-semibold text-gray-800">All Clients</h2>
-            <a class="bg-green-500 text-white px-4 py-2 rounded shadow hover:bg-green-600" href="#" role="button">Add Client</a>
+            <a class="bg-green-500 text-white px-4 py-2 rounded shadow hover:bg-green-600" href="add-client.php" role="button">Add Client</a>
         </div>
 
         <!---------- Table Section ----------->
@@ -46,7 +46,7 @@
                         die("Connection failed:" . $connection->connect_error);
                     }
 
-                    //read all row from database table
+                    //read all row from db table
                     $sql = "SELECT * FROM clients";
                     $result = $connection->query($sql);
 
@@ -63,8 +63,8 @@
                             <td class='px-4 py-2 border'>$row[adresse]</td>
                             <td class='px-4 py-2 border'>$row[tel]</td>
                             <td class='px-4 py-2 border text-center'>
-                                <a class='bg-green-500 text-white px-3 py-1 rounded text-sm hover:bg-green-600' href='/projet de gestion location/edit-client.php?idclient=$row[idclient]'>Edit</a>
-                                <a class='bg-red-500 text-white px-3 py-1 rounded text-sm hover:bg-red-600' href='/projet de gestion location/delete-client.php?idclient=$row[idclient]'>Delete</a>
+                                <a class='bg-green-500 text-white px-3 py-1 rounded text-sm hover:bg-green-600' href='edit-client.php?idclient=$row[idclient]'>Edit</a>
+                                <a class='bg-red-500 text-white px-3 py-1 rounded text-sm hover:bg-red-600' href='delete-client.php?idclient=$row[idclient]'>Delete</a>
                             </td>
                         </tr>
                         ";
