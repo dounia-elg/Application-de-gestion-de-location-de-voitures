@@ -29,7 +29,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST'){
             break;
         }
 
-        //add new client to db
+        //add new car to db
 
         $sql = "INSERT INTO voiture (idvoiture, marque, modele, annee) 
         VALUES ('$idvoiture', '$marque', '$modele', '$year')";
@@ -85,25 +85,25 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST'){
         <form method="post" class="space-y-4">
             
             <div>
-                <label for="idclient" class="block text-gray-700 font-medium mb-2">ID Car</label>
+                <label for="idvoiture" class="block text-gray-700 font-medium mb-2">ID Car</label>
                 <input type="text" id="idvoiture" name="idvoiture" value="<?php echo $idvoiture; ?>"class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
             </div>
 
             
             <div>
-                <label for="name" class="block text-gray-700 font-medium mb-2">Marque</label>
+                <label for="marque" class="block text-gray-700 font-medium mb-2">Marque</label>
                 <input type="text" id="marque" name="marque" value="<?php echo $marque; ?>" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
             </div>
 
            
             <div>
-                <label for="address" class="block text-gray-700 font-medium mb-2">Modele</label>
+                <label for="modele" class="block text-gray-700 font-medium mb-2">Modele</label>
                 <input type="text" id="modele" name="modele" value="<?php echo $modele; ?>" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
             </div>
 
             
             <div>
-                <label for="phone" class="block text-gray-700 font-medium mb-2">Year</label>
+                <label for="year" class="block text-gray-700 font-medium mb-2">Year</label>
                 <input type="text" id="year" name="year" value="<?php echo $year; ?>" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
             </div>
 

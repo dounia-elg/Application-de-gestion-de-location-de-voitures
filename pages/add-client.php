@@ -86,7 +86,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST'){
             
             <div>
                 <label for="idclient" class="block text-gray-700 font-medium mb-2">ID Client</label>
-                <input type="text" id="idclient" name="idclient" value="<?php echo $idclient; ?>"class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <input type="number" id="idclient" name="idclient" value="<?php echo $idclient; ?>"class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
             </div>
 
             
