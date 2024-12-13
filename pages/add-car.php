@@ -5,7 +5,7 @@ $username = "root";
 $password = "password";
 $database = "gestionloca";
 
-//create connection
+
 $connection = new mysqli($servername, $username, $password, $database);
 
 
