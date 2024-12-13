@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('./img/car-background.png'); 
+    background-image: url('../img/car-background.png'); 
     background-repeat: no-repeat;
     background-size: cover;
     color: white; 
@@ -27,7 +27,7 @@ body {
 .header .logo img {
     width: 150px;
     height: auto;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .nav-menu ul {
@@ -84,7 +84,27 @@ ul li a:hover {
 
 .hero h1 span,
 .hero p span {
-    color: red; 
+    color: #fca510; 
     font-family: 'Georgia', serif; 
     font-style: italic;
 }
+
+
+
+/* Specific style for Clients page
+.clients-page .header {
+    padding: 100px;  /* Reduced padding */
+/*  */
+/* }
+
+.clients-page .header .logo img {
+    width: 120px;  
+}
+
+.clients-page .nav-menu ul li {
+    margin-right: 10px;  
+}
+
+.clients-page .nav-menu ul li a {
+    font-size: 16px;
+} 
