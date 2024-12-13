@@ -29,7 +29,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST'){
             break;
         }
 
-        //add new client to db
+        
 
         $sql = "INSERT INTO clients (idclient, nom, adresse, tel) 
         VALUES ('$idclient', '$name', '$address', '$phone')";
@@ -48,7 +48,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST'){
 
         $successMessage = "Client added correctly";
 
-        header("clients.php");
+        header("Location: ./add-client.php");
         exit;
 
     }while (false);
@@ -123,7 +123,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST'){
             <div class="flex justify-between items-center">
 
                 <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Submit</button>
-                <a href="clients.php" role="button" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">Cancel</a>
+                <a href="./clients.php" role="button" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">Cancel</a>
 
             </div>
         </form>

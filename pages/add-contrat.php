@@ -138,8 +138,8 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST'){
             <!-------------- Buttons ----------->
             <div class="flex justify-between items-center">
 
-                <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Submit</button>
-                <a href="contrats.php" role="button" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">Cancel</a>
+            <a href="./contrats.php" role="button"  type="submit" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Submit</a>
+            <a href="./contrats.php" role="button" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">Cancel</a>
 
             </div>
         </form>

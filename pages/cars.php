@@ -38,15 +38,15 @@
                     $password = "password";
                     $database = "gestionloca";
 
-                    //create connection
+                    
                     $connection = new mysqli($servername, $username, $password, $database);
 
-                    //check connection
+                    
                     if ($connection->connect_error){
                         die("Connection failed:" . $connection->connect_error);
                     }
 
-                    //read all row from database table
+                
                     $sql = "SELECT * FROM voiture";
                     $result = $connection->query($sql);
 
@@ -54,7 +54,7 @@
                         die("Invalid query:" . $connection->error);
                     }
 
-                    //read data of each row
+                    
                     while($row = $result->fetch_assoc()){
                         echo "
                         <tr class='hover:bg-gray-100'>
