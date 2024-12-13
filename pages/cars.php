@@ -36,7 +36,7 @@
 
             <table class="table-auto w-full border-collapse">
 
-                <thead class="bg-gray-200 text-gray-700">
+                <thead class="bg-[#F2E8C6] text-gray-700">
                     <tr>
                         <th class="px-4 py-2 border">ID Car</th>
                         <th class="px-4 py-2 border">Marque</th>
