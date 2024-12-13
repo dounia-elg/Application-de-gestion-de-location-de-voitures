@@ -5,15 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cars</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/style-cars.css">
 </head>
-<body class="bg-gray-100">
+<body class="bg-black">
+    <!-----------------Header----------------------->
+    <nav class="header">
+        <div class="logo ">
+            <img src="../img/logooo.png" href="../home.html" alt="car Logo">
+        </div>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="../home.html" >Home</a></li>
+                <li><a href="../pages/clients.php" >Clients</a></li>
+                <li><a href="../pages/cars.php" class="active">Cars</a></li>
+                <li><a href="../pages/contrats.php">Contrats</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="container mx-auto my-10 px-4">
+    <div class="container mx-auto mt-[150px] px-20">
 
         <!---------- Header Section ---------->
         <div class="flex justify-between items-center mb-6">
-            <h2 class="text-2xl font-semibold text-gray-800">All Cars</h2>
-            <a class="bg-green-500 text-white px-4 py-2 rounded shadow hover:bg-green-600" href="add-car.php" role="button">Add Car</a>
+            <h2 class="text-2xl font-semibold text-yellow-500">All Cars</h2>
+            <a class="bg-yellow-500 text-white px-4 py-2 rounded shadow hover:bg-yellow-600" href="add-car.php" role="button">Add Car</a>
         </div>
 
         <!---------- Table Section ----------->

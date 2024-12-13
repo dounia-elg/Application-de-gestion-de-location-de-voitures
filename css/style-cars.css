@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: transparent; 
+    position: fixed; 
+    width: 100%;
+    z-index: 1000;
+    margin-top: -150px;
+}
+
+.header .logo img {
+    width: 150px;
+    height: auto;
+    margin-left: 0px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu ul li {
+    margin-right: 100px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white; 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+ul li a.active,
+ul li a:hover {
+    color: red; 
+    border-bottom: 3px solid red;
+    transform: scale(1.1);
+}

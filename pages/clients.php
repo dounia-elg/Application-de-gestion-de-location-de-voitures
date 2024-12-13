@@ -13,7 +13,7 @@
     <!-----------------Header----------------------->
     <nav class="header">
         <div class="logo ">
-            <img src="../img/logooo.png" alt="car Logo">
+            <img src="../img/logooo.png" href="../home.html" alt="car Logo">
         </div>
         <div class="nav-menu">
             <ul>
