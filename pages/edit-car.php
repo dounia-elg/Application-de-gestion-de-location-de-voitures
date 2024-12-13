@@ -23,10 +23,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
         exit;
     }
 
-    // Sanitize input
+    
     $idvoiture = intval($_GET["idvoiture"]);
 
-    // Adjusted SQL query
     $sql = "SELECT * FROM voiture WHERE idvoiture=$idvoiture";
     $result = $connection->query($sql);
 
@@ -42,9 +41,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $modele = $row["modele"];
     $year = $row["annee"];
 
-} elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
+} else if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-    // Sanitize input
     $idvoiture = $_POST["idvoiture"]; 
     $marque = $_POST["marque"];
     $modele = $_POST["modele"];

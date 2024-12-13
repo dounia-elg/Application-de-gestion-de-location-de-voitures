@@ -78,8 +78,8 @@
                             <td class='px-4 py-2 border'>$row[modele]</td>
                             <td class='px-4 py-2 border'>$row[annee]</td>
                             <td class='px-4 py-2 border text-center'>
-                                <a class='bg-green-500 text-white px-3 py-1 rounded text-sm hover:bg-green-600' href='edit-car.php?idvoiture=$row[idvoiture]'>Edit</a>
-                                <a class='bg-red-500 text-white px-3 py-1 rounded text-sm hover:bg-red-600' href='delete-car.php?idvoiture=$row[idvoiture]'>Delete</a>
+                                <a class='bg-green-500 text-white px-3 py-1 rounded text-sm hover:bg-green-600' href='../pages/edit-car.php?idvoiture=$row[idvoiture]'>Edit</a>
+                                <a class='bg-red-500 text-white px-3 py-1 rounded text-sm hover:bg-red-600' href='../pages/delete.car.php?idvoiture=$row[idvoiture]'>Delete</a>
                             </td>
                         </tr>
                         ";
