@@ -7,7 +7,7 @@
     position: fixed; 
     width: 100%;
     z-index: 1000;
-    margin-top: -100px;
+    margin-top: -150px;
 }
 
 .header .logo img {
@@ -39,3 +39,4 @@ ul li a:hover {
     border-bottom: 3px solid red;
     transform: scale(1.1);
 }
+

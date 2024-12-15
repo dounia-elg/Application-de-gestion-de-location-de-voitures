@@ -7,14 +7,19 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="../css/style-contrats.css">
 </head>
-<body class="bg-black">
+<body class="bg-[url('/img/cars.4.jpg')] bg-no-repeat bg-cover">
 
     <!-----------------Header----------------------->
     <nav class="header">
         <div class="logo ">
             <img src="../img/logooo.png" href="../home.html" alt="car Logo">
         </div>
-        <div class="nav-menu">
+        <!-- <div class="burger-menu" id="burgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> -->
+        <div class="nav-menu overflow-x-auto">
             <ul>
                 <li><a href="../home.html" >Home</a></li>
                 <li><a href="../Clients/clients.php">Clients</a></li>
@@ -40,7 +45,7 @@
         $result = $conn->query("SELECT * FROM contrats");
 
         if ($result->num_rows > 0) {
-            echo "<div class='bg-white shadow-md rounded-lg overflow-hidden'>
+            echo "<div class='bg-white shadow-md rounded-lg overflow-x-auto'>
                     <table class='table-auto w-full border-collapse'>
                         <thead class='bg-[#F2E8C6] text-gray-700'>
                             <tr>
@@ -79,5 +84,7 @@
         }
         ?>
     </div>
+
+    <!-- <script src="./script.js"></script> -->
 </body>
 </html>
