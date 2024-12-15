@@ -22,6 +22,7 @@ body {
     position: fixed; 
     width: 100%;
     z-index: 1000;
+    margin-top: 50px;
 }
 
 .header .logo img {
@@ -91,20 +92,3 @@ ul li a:hover {
 
 
 
-/* Specific style for Clients page
-.clients-page .header {
-    padding: 100px;  /* Reduced padding */
-/*  */
-/* }
-
-.clients-page .header .logo img {
-    width: 120px;  
-}
-
-.clients-page .nav-menu ul li {
-    margin-right: 10px;  
-}
-
-.clients-page .nav-menu ul li a {
-    font-size: 16px;
-} 

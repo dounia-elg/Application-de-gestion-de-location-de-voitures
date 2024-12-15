@@ -1,17 +1,14 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "password";
+
+$host = "127.0.0.1";
+$username = "root"; 
+$password = "password"; 
+ 
 $database = "gestionloca";
 
+$conn = new mysqli($host, $username, $password, $database);
 
-$connection = new mysqli($servername, $username, $password, $database);
-
-
-if ($connection->connect_error){
-    die("Connection failed:" . $connection->connect_error);
+if ($conn->connect_error) {
+    die("Connection failed: {$conn->connect_error}");
 }
-echo "Connected successfully!<br>";
-
-
 ?>
